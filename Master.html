@@ -1,0 +1,242 @@
+<script src="phaser.min.js"></script>
+<script src="phaser.js"></script>
+<script>
+
+//MASTER HACK WEBSITE 69
+//http://phaser.io/tutorials/making-your-first-phaser-game/index
+
+var game = new Phaser.Game(800,600, Phaser.AUTO, '', { preload: preload, create: create, update: update });
+
+var background;
+
+
+
+// HOME SCREEN FUNCTION
+var HomeScreen = {
+
+
+	function preload() {
+
+game.load.image("background","Krnic's Quest/1172262_orig.jpg");
+	}
+	function create() {
+
+background = game.add.sprite(0,0,"background");
+alert("hi");
+	}
+	function update() {
+
+	}
+
+}
+// HOME SCREEN FUNCTION END
+
+
+//LOADING SCREEN FUNCTION
+
+var LoadingScreen = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//LOADING SCREEN FUNCTION END
+
+
+//PAUSED SCREEN FUNCTION
+
+var PausedScreen = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//PAUSED SCREEN END
+
+
+//INSTRUCTIONS SCREEN FUNCTION
+
+var InstructionsScreen = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//INSTRUCTIONS SCREEN END
+
+
+//DEATH SCREEN FUNCTION
+
+var DeathScreen = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//DEATH SCREEN END
+
+
+//LEVEL ONE FUNCTION
+
+var LevelOne = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//LEVEL ONE FUNCTION END
+
+
+//LEVEL TWO FUNCTION
+
+var LevelTwo = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//LEVEL TWO FUNCTION END
+
+
+//LEVEL THREE FUCNTION
+
+var LevelThree = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//LEVEL THREE FUNCTION END
+
+
+//LEVEL FOUR FUNCTION
+
+var LevelFour = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//LEVEL FOUR FUNCTION END
+
+
+//LEVEL FIVE FUNCTION
+
+var LevelFive = {
+
+
+	function preload() {
+
+	}
+	function create() {
+
+	}
+	function update() {
+
+	}
+
+}
+//LEVEL FIVE FUNCTION END
+
+
+game.state.add("HomeScreen",HomeScreen);
+
+game.state.start("HomeScreen");
+
+function preload() {
+
+game.load.image("background","Krnic's Quest/1172262_orig.jpg");
+
+
+
+
+}
+function create() {
+
+
+
+//  We're going to be using physics, so enable the Arcade Physics system
+    game.physics.startSystem(Phaser.Physics.ARCADE);
+
+//  A simple background for our game
+background = game.add.sprite(0,0,"background");
+
+
+alert("wow");
+}
+function update() {
+
+
+
+
+}
+
+
+
+
+
+</script>
